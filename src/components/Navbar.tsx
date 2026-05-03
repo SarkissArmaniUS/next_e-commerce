@@ -27,8 +27,8 @@ const Navbar = () => {
           <Home className="w-4 h-4 text-gray-600"/>
         </Link>
         <Bell className="w-4 h-4 text-gray-600"/>
-        {/* <ShoppingCartIcon /> */}
-        <ShoppingCart className="w-4 h-4 text-gray-600"/>
+        <ShoppingCartIcon />
+        {/* <ShoppingCart className="w-4 h-4 text-gray-600"/> */}
         <Link href="/login">Sign in</Link>
       </div>
     </nav>
