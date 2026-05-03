@@ -18,5 +18,3 @@ const Homepage = async ({
 };
 
 export default Homepage;
-
-//dev
