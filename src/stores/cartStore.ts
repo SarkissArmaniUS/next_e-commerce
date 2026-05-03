@@ -60,5 +60,3 @@ const useCartStore = create<CartStoreStateType & CartStoreActionsType>()(
 );
 
 export default useCartStore;
-
-// dev
