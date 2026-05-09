@@ -92,9 +92,6 @@ next_e-commerce/
 │   └── package.json                # Dependencies
 ```
 
-⚠️ Project Status: Under Construction / Work in Progress**
-
-
 ## 📊 Data Models
 
 ### **Product Type**
@@ -138,63 +135,14 @@ next_e-commerce/
 
 ## 🚀 Getting Started
 
-### **Prerequisites**
-- Node.js 18+ and npm/yarn
-- Git
-
-### **Installation**
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd next_e-commerce
-   ```
-
-2. **Install Frontend Dependencies**
-   ```bash
-   cd client
-   npm install
-   ```
-
-3. **Install Backend Dependencies**
-   ```bash
-   cd ../server
-   npm install
-   ```
-
----
-
-## ▶️ Running the Application
-
-### **Development Mode**
-
-**Terminal 1 - Frontend (Port 3000)**
 ```bash
-cd client
+git clone <repository-url>
+cd next-e-commerce/client
+npm install
 npm run dev
 ```
-Access at: `http://localhost:3000`
 
-**Terminal 2 - Backend (Port varies)**
-```bash
-cd server
-node src/index.ts
-```
-
-### **Production Build**
-
-**Frontend Build**
-```bash
-cd client
-npm run build
-npm start
-```
-
-**Lint Code**
-```bash
-cd client
-npm run lint
-```
+Open `http://localhost:3000`.
 
 ---
 
@@ -243,30 +191,6 @@ npm run lint
 - Environment variables for sensitive data (to be implemented)
 
 **⚠️ Note**: Payment processing currently for demo purposes. Integrate with payment gateway (Stripe, PayPal) for production.
-
----
-
-## 🗺️ Roadmap
-
-### Phase 1: MVP ✅
-- Product listing and details
-- Shopping cart
-- Checkout flow
-
-### Phase 2: Backend Integration
-- User authentication
-- Database setup
-- API endpoints
-
-### Phase 3: Enhanced Features
-- Payment gateway integration
-- Order management
-- Admin dashboard
-
-### Phase 4: Optimization
-- Performance optimization
-- Analytics
-- SEO improvements
 
 ---
 
