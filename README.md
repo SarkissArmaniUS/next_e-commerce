@@ -1,18 +1,26 @@
-# TrendStore - Next.js E-Commerce Demo
+⚠️ Project Status: Under Construction / Work in Progress**
+
+# TrendStore - Full Stack E-Commerce Application
 
 A modern, responsive frontend for an apparel storefront built entirely inside the `client/` folder. This demo uses temporary example product data and focuses on shopping, cart, and checkout UI.
 
 ---
 
-## 🌟 Features
+## ✨ Features
 
-- Responsive product browsing
-- Category filtering and search UI
-- Product detail pages with size/color variants
-- Shopping cart with quantity management
-- Persistent cart stored in the browser
-- Checkout flow with shipping and payment forms
-- Form validation using Zod and React Hook Form
+### **Frontend Features**
+- 🏠 **Homepage** - Featured products and category showcase
+- 🛍️ **Product Browsing** - View all products with detailed information
+- 🔍 **Search & Filter** - Find products by name, category
+- 📋 **Product Details** - View product images, descriptions, available sizes/colors
+- 🛒 **Shopping Cart** - Add/remove items with quantity management
+- 💾 **Persistent Cart** - LocalStorage-based cart persistence
+- 📦 **Checkout Process**
+  - Multi-step checkout (Cart → Shipping → Payment)
+  - Shipping address form with validation
+  - Payment form with card details
+- 🎨 **Responsive Design** - Mobile-friendly interface
+- 📱 **Modern UI** - Clean, intuitive user experience
 
 ---
 
@@ -22,54 +30,6 @@ A modern, responsive frontend for an apparel storefront built entirely inside th
 - **Products**: Catalog browsing
 - **Product Detail**: Item details and variant selection
 - **Cart**: Checkout process with shipping/payment forms
-
----
-
-## 🛠 Tech Stack
-
-- Next.js 16
-- React 19
-- TypeScript
-- Tailwind CSS 4
-- Zustand
-- React Hook Form
-- Zod
-- Lucide React
-- React Toastify
-
----
-
-## 🚀 Getting Started
-
-```bash
-git clone <repository-url>
-cd next-e-commerce/client
-npm install
-npm run dev
-```
-
-Open `http://localhost:3000`.
-
----
-
-## 📌 Notes
-
-- Repository contains only the `client/` frontend app.
-- Product data is temporary/example data used for demonstration.
-- Backend integration and production persistence are not included.
-
-
-⚠️ Project Status: Under Construction / Work in Progress**
-
-# TrendStore - Full Stack E-Commerce Application
-
-A modern, full-stack e-commerce platform built with **Next.js 16** for the frontend and **Express.js** for the backend. TrendStore provides a seamless shopping experience with product browsing, filtering, cart management, and checkout functionality.
-
----
-
-## 🎯 Overview
-
-TrendStore is a frontend e-commerce demo built entirely inside the `client/` folder. The repository contains only the client application, and backend integration / production data persistence are not included here. The current implementation uses temporary example product data for demo purposes and showcases product browsing, cart management, and checkout flow.
 
 ---
 
@@ -132,40 +92,8 @@ next_e-commerce/
 │   └── package.json                # Dependencies
 ```
 
----
+⚠️ Project Status: Under Construction / Work in Progress**
 
-## ✨ Features
-
-### **Frontend Features**
-- 🏠 **Homepage** - Featured products and category showcase
-- 🛍️ **Product Browsing** - View all products with detailed information
-- 🔍 **Search & Filter** - Find products by name, category
-- 📋 **Product Details** - View product images, descriptions, available sizes/colors
-- 🛒 **Shopping Cart** - Add/remove items with quantity management
-- 💾 **Persistent Cart** - LocalStorage-based cart persistence
-- 📦 **Checkout Process**
-  - Multi-step checkout (Cart → Shipping → Payment)
-  - Shipping address form with validation
-  - Payment form with card details
-- 🎨 **Responsive Design** - Mobile-friendly interface
-- 📱 **Modern UI** - Clean, intuitive user experience
-
-### **Product Management**
-- Multiple product variants (sizes, colors)
-- Product images for each color variant
-- Detailed product descriptions
-- Price information
-- Stock availability
-
-### **Cart Management**
-- Add products with selected size and color
-- Track quantity per item
-- Remove items from cart
-- Clear entire cart
-- Real-time cart updates
-- Cart total calculation
-
----
 
 ## 📊 Data Models
 
@@ -315,54 +243,6 @@ npm run lint
 - Environment variables for sensitive data (to be implemented)
 
 **⚠️ Note**: Payment processing currently for demo purposes. Integrate with payment gateway (Stripe, PayPal) for production.
-
----
-
-## 📦 Dependencies Overview
-
-### **Frontend Key Dependencies**
-| Package | Version | Purpose |
-|---------|---------|---------|
-| Next.js | 16.2.4 | React framework with SSR |
-| React | 19.2.4 | UI library |
-| Zustand | 5.0.12 | State management |
-| React Hook Form | 7.75.0 | Form management |
-| Zod | 4.4.2 | Schema validation |
-| Tailwind CSS | 4 | Styling |
-| Lucide React | 1.14.0 | Icons |
-
-### **Backend Key Dependencies**
-| Package | Version | Purpose |
-|---------|---------|---------|
-| Express.js | 5.2.1 | Web server framework |
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the ISC License - see the LICENSE file for details.
-
----
-
-## 👨‍💻 Author
-
-Full Stack E-Commerce Application
-
----
-
-## 📞 Support & Contact
-
-For issues, questions, or suggestions, please open an issue in the repository.
 
 ---
 
