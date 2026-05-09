@@ -1,3 +1,64 @@
+# TrendStore - Next.js E-Commerce Demo
+
+A modern, responsive frontend for an apparel storefront built entirely inside the `client/` folder. This demo uses temporary example product data and focuses on shopping, cart, and checkout UI.
+
+---
+
+## 🌟 Features
+
+- Responsive product browsing
+- Category filtering and search UI
+- Product detail pages with size/color variants
+- Shopping cart with quantity management
+- Persistent cart stored in the browser
+- Checkout flow with shipping and payment forms
+- Form validation using Zod and React Hook Form
+
+---
+
+## 🧩 Sections
+
+- **Home**: Featured hero and product list
+- **Products**: Catalog browsing
+- **Product Detail**: Item details and variant selection
+- **Cart**: Checkout process with shipping/payment forms
+
+---
+
+## 🛠 Tech Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- Zustand
+- React Hook Form
+- Zod
+- Lucide React
+- React Toastify
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone <repository-url>
+cd next-e-commerce/client
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000`.
+
+---
+
+## 📌 Notes
+
+- Repository contains only the `client/` frontend app.
+- Product data is temporary/example data used for demonstration.
+- Backend integration and production persistence are not included.
+
+
 ⚠️ Project Status: Under Construction / Work in Progress**
 
 # TrendStore - Full Stack E-Commerce Application
