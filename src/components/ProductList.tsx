@@ -138,5 +138,3 @@ const ProductList = ({category, params}: {category:string, params: "homepage" | 
 };
 
 export default ProductList;
-
-// dev
