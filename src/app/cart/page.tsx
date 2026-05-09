@@ -123,7 +123,7 @@ const CartPage = () => {
       {/* STEPS & DETAILS */}
       <div className="w-full flex flex-col lg:flex-row gap-16">
         {/* STEPS */}
-<div className="w-full lg:w-7/12 shadow-lg border-1 border-gray-100 p-8 rounded-lg flex flex-col gap-8">
+        <div className="w-full lg:w-7/12 shadow-lg border-1 border-gray-100 p-8 rounded-lg flex flex-col gap-8">
           {activeStep === 1 ? (
             cart.map((item) => (
               // SINGLE CART ITEM
@@ -222,5 +222,3 @@ const CartPage = () => {
 }
 
 export default CartPage
-
-// dev

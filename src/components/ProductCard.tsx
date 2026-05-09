@@ -15,8 +15,7 @@ const ProductCard = ({product}:{product:ProductType}) => {
     color: product.colors[0],
   });
 
-
-    const { addToCart } = useCartStore();
+  const { addToCart } = useCartStore();
 
   const handleProductType = ({
     type,
@@ -120,5 +119,3 @@ const ProductCard = ({product}:{product:ProductType}) => {
 };
 
 export default ProductCard;
-
-// dev
